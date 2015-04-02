@@ -8,6 +8,15 @@ public class CardTester {
 	 *	@param args is not used.
 	 */
 	public static void main(String[] args) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+		Card card1= new Card ("8","clubs",8);
+		Card card2= new Card ("7","clubs",7);
+		Card card3= new Card ("4","heart",4);
+		
+		System.out.println("It should be rank 8 , suit clubs, value 8");
+		card1.rank();
+		card1.suit();
+		card1.pointValue();
 	}
+	
+	
 }
